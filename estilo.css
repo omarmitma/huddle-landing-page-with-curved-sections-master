@@ -1,0 +1,439 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body nav {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 5px;
+}
+
+body nav .logoNav img {
+  width: 100%;
+}
+
+body nav .containerButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body nav .containerButton .buttonNav {
+  text-align: right;
+}
+
+body nav .containerButton .buttonNav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff8fd8;
+  padding: 5px 15px;
+  border: 1px solid #ff8fd8;
+  border-radius: 30px;
+}
+
+body nav .containerButton .buttonNav a:hover {
+  color: #ff52bf;
+  border: 1px solid #ff52bf;
+}
+
+body main .textComunity {
+  padding: 5px;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body main .textComunity h1 {
+  font-size: 30px;
+  color: #00252e;
+}
+
+body main .textComunity .text p {
+  font-size: 14px;
+  color: #4c585a;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body main .textComunity .btnStartedFree {
+  display: inline-block;
+  margin: 50px 0 120px 0;
+}
+
+body main .textComunity .btnStartedFree a {
+  text-decoration: none;
+  padding: 20px 40px;
+  color: #fff;
+  background-color: #ff52bf;
+  border-radius: 30px;
+  -webkit-box-shadow: 3px 3px 3px 1px #c9c7c7;
+          box-shadow: 3px 3px 3px 1px #c9c7c7;
+}
+
+body main .textComunity .btnStartedFree a:hover {
+  background-color: #ff8fd8;
+}
+
+body main .textComunity .containerImg img {
+  width: 100%;
+}
+
+body main .textComunity .statisticsCommunities {
+  margin: 0px 0 40px 0;
+  padding: 30px;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+body main .textComunity .statisticsCommunities .textStatistics {
+  margin-top: 70px;
+}
+
+body main .textComunity .statisticsCommunities .textStatistics div {
+  text-align: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+}
+
+body main .textComunity .statisticsCommunities .textStatistics div img {
+  float: left;
+}
+
+body main .textComunity .statisticsCommunities .textStatistics div b {
+  display: block;
+  font-size: 50px;
+  color: #00252e;
+}
+
+body main .textComunity .statisticsCommunities .textStatistics p {
+  padding: 0;
+  color: #9caaad;
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+body main .containerDivImgText .backgroundcurved {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main .containerDivImgText .backgroundcurved .bg-desktop {
+  display: none;
+}
+
+body main .containerDivImgText .backgroundcurved img {
+  width: 100%;
+  height: 100%;
+}
+
+body main .containerDivImgText .containerImgText {
+  display: -ms-grid;
+  display: grid;
+}
+
+body main .containerDivImgText .containerImgText .divItem {
+  padding: 20px;
+}
+
+body main .containerDivImgText .containerImgText .divText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+body main .containerDivImgText .containerImgText .divText h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+body main .containerDivImgText .containerImgText .divText p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body main .containerDivImgText .containerImgText .divImg img {
+  width: 100%;
+}
+
+body main .containerDivImgText .containerImgTextReverse {
+  background: #f5faff;
+}
+
+body main .GetStarted {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 90px 0 90px 0;
+}
+
+body main .GetStarted h2 {
+  margin-bottom: 40px;
+}
+
+body main .GetStarted a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff52bf;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-shadow: 3px 3px 3px 1px #c9c7c7;
+          box-shadow: 3px 3px 3px 1px #c9c7c7;
+}
+
+body main .GetStarted a:hover {
+  background-color: #ff8fd8;
+}
+
+body footer .backgroundcurved img {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .backgroundcurved .bg-desktop {
+  display: none;
+}
+
+body footer .backgroundcurved .bg-mobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .containerFooter {
+  display: -ms-grid;
+  display: grid;
+  background-color: #00252e;
+  padding: 20px 20px 15px 20px;
+}
+
+body footer .containerFooter .divNewsLetterFooter {
+  color: #fff;
+}
+
+body footer .containerFooter .divNewsLetterFooter .divText h3 {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body footer .containerFooter .divNewsLetterFooter .divText p {
+  margin-top: 20px;
+}
+
+body footer .containerFooter .divNewsLetterFooter form {
+  margin-top: 20px;
+}
+
+body footer .containerFooter .divNewsLetterFooter form .divInput {
+  text-align: center;
+}
+
+body footer .containerFooter .divNewsLetterFooter form .divInput input[type=email] {
+  outline: none;
+  padding: 9px;
+  border-radius: 5px;
+  border: none;
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+body footer .containerFooter .divNewsLetterFooter form .divInput div {
+  text-align: right;
+}
+
+body footer .containerFooter .divNewsLetterFooter form .divInput div input[type=submit] {
+  margin-top: 15px;
+  margin-left: 20px;
+  background-color: #ff52bf;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 9px 25px;
+}
+
+body footer .containerFooter .contactFooter {
+  color: #fff;
+  margin-top: 80px;
+}
+
+body footer .containerFooter .contactFooter .divText {
+  margin-top: 20px;
+}
+
+body footer .containerFooter .contactFooter .divText div {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+}
+
+body footer .containerFooter .contactFooter .divText div img {
+  width: 20px;
+  display: inline;
+}
+
+body footer .containerFooter .contactFooter .divText div p {
+  margin-left: 10px;
+  display: inline;
+}
+
+body footer .containerFooter .contactFooter .divText .divIcons div {
+  margin: 30px 15px 0 0;
+}
+
+body footer .attribution {
+  margin-top: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+body footer .attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 912px) {
+  body nav {
+    padding: 40px 70px;
+  }
+  body nav .logoNav img {
+    width: auto;
+  }
+  body nav .containerButton .buttonNav a {
+    font-size: 20px;
+  }
+  body main .textComunity {
+    padding: 0 70px;
+    margin-top: 120px;
+  }
+  body main .textComunity h1 {
+    font-size: 45px;
+  }
+  body main .textComunity p {
+    padding: 0 32%;
+  }
+  body main .textComunity .statisticsCommunities {
+    margin: 90px 0 90px 100px;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  body main .textComunity .statisticsCommunities .textStatistics b {
+    font-size: 80px;
+  }
+  body main .containerDivImgText .backgroundcurved .bg-mobile {
+    display: none;
+  }
+  body main .containerDivImgText .backgroundcurved .bg-desktop {
+    display: block;
+    height: 100%;
+  }
+  body main .containerDivImgText .containerImgText {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  body main .containerDivImgText .containerImgText .divItem {
+    padding: 100px;
+  }
+  body main .containerDivImgText .containerImgText .divText {
+    text-align: left;
+  }
+  body main .containerDivImgText .containerImgTextReverse .divImg {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body main .containerDivImgText .containerImgTextReverse .divText {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body main .GetStarted h2 {
+    margin-bottom: 50px;
+  }
+  body main .GetStarted a {
+    padding: 15px 35px;
+  }
+  body footer .backgroundcurved .bg-desktop {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  body footer .backgroundcurved .bg-mobile {
+    display: none;
+  }
+  body footer .containerFooter {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    padding: 70px 70px 40px 70px;
+  }
+  body footer .containerFooter .divNewsLetterFooter {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body footer .containerFooter .divNewsLetterFooter .divText {
+    width: 55%;
+  }
+  body footer .containerFooter .divNewsLetterFooter form .divInput {
+    text-align: left;
+  }
+  body footer .containerFooter .divNewsLetterFooter form .divInput input[type=email] {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 50%;
+  }
+  body footer .containerFooter .divNewsLetterFooter form .divInput div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  body footer .containerFooter .divNewsLetterFooter form .divInput div input[type=submit] {
+    margin-top: 0;
+  }
+  body footer .containerFooter .contactFooter {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    width: 50%;
+    margin-top: 0;
+  }
+  body footer .containerFooter p {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
